@@ -1,0 +1,5 @@
+#!/bin/bash
+
+source ./setenv
+
+exec "$ACTIVEMQ_HOME/bin/activemq" "$@"
