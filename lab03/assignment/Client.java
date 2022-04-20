@@ -485,7 +485,6 @@ public class Client {
 	 * Process a message with goods offer
 	 */
 	private void processOffer(Message msg) throws JMSException {
-		System.out.println("Processing offer...");
 		// TODO
 
 		// parse the message, obtaining sender's name and list of offered goods
@@ -530,7 +529,6 @@ public class Client {
 	 * Process message requesting a sale
 	 */
 	private void processSale(Message msg) throws JMSException {
-		System.out.println("Proccessing sale...");
 		// TODO
 		
 		/* Step 1: parse the message */
