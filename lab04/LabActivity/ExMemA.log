@@ -1,0 +1,191 @@
+"C:\Program Files\Java\jdk-17\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2021.3.2\lib\idea_rt.jar=61146:C:\Program Files\JetBrains\IntelliJ IDEA 2021.3.2\bin" -Dfile.encoding=UTF-8 -classpath C:\Users\evild\Documents\Github\nswi080-middleware\lab04\LabActivity\target\classes;C:\Users\evild\.m2\repository\com\hazelcast\hazelcast\5.1.1\hazelcast-5.1.1.jar ExampleMember ExMemA
+Apr 21, 2022 4:23:39 PM com.hazelcast.config.FileSystemYamlConfig
+INFO: Configuring Hazelcast from 'C:\Users\evild\Documents\Github\nswi080-middleware\lab04\LabActivity\hazelcast.yaml'.
+Apr 21, 2022 4:23:40 PM com.hazelcast.instance.impl.HazelcastInstanceFactory
+WARNING: Hazelcast is starting in a Java modular environment (Java 9 and newer) but without proper access to required Java packages. Use additional Java arguments to provide Hazelcast access to Java internal API. The internal API access is used to get the best performance results. Arguments to be used:
+ --add-modules java.se --add-exports java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.ch=ALL-UNNAMED --add-opens java.management/sun.management=ALL-UNNAMED --add-opens jdk.management/com.sun.management.internal=ALL-UNNAMED
+Apr 21, 2022 4:23:40 PM com.hazelcast.instance.AddressPicker
+INFO: [LOCAL] [dev] [5.1.1] Interfaces is enabled, trying to pick one address matching to one of: [127.0.0.1, 127.0.0.1]
+Apr 21, 2022 4:23:40 PM com.hazelcast.system.logo
+INFO: [127.0.0.1]:5701 [dev] [5.1.1] 
+	+       +  o    o     o     o---o o----o o      o---o     o     o----o o--o--o
+	+ +   + +  |    |    / \       /  |      |     /         / \    |         |   
+	+ + + + +  o----o   o   o     o   o----o |    o         o   o   o----o    |   
+	+ +   + +  |    |  /     \   /    |      |     \       /     \       |    |   
+	+       +  o    o o       o o---o o----o o----o o---o o       o o----o    o   
+Apr 21, 2022 4:23:40 PM com.hazelcast.system
+INFO: [127.0.0.1]:5701 [dev] [5.1.1] Copyright (c) 2008-2022, Hazelcast, Inc. All Rights Reserved.
+Apr 21, 2022 4:23:40 PM com.hazelcast.system
+INFO: [127.0.0.1]:5701 [dev] [5.1.1] Hazelcast Platform 5.1.1 (20220317 - 5b5fa10) starting at [127.0.0.1]:5701
+Apr 21, 2022 4:23:40 PM com.hazelcast.system
+INFO: [127.0.0.1]:5701 [dev] [5.1.1] Cluster name: dev
+Apr 21, 2022 4:23:40 PM com.hazelcast.system
+INFO: [127.0.0.1]:5701 [dev] [5.1.1] Integrity Checker is disabled. Fail-fast on corrupted executables will not be performed.
+To enable integrity checker do one of the following: 
+  - Change member config using Java API: config.setIntegrityCheckerEnabled(true);
+  - Change XML/YAML configuration property: Set hazelcast.integrity-checker.enabled to true
+  - Add system property: -Dhz.integritychecker.enabled=true (for Hazelcast embedded, works only when loading config via Config.load)
+  - Add environment variable: HZ_INTEGRITYCHECKER_ENABLED=true (recommended when running container image. For Hazelcast embedded, works only when loading config via Config.load)
+Apr 21, 2022 4:23:40 PM com.hazelcast.system
+INFO: [127.0.0.1]:5701 [dev] [5.1.1] The Jet engine is disabled.
+To enable the Jet engine on the members, do one of the following:
+  - Change member config using Java API: config.getJetConfig().setEnabled(true)
+  - Change XML/YAML configuration property: Set hazelcast.jet.enabled to true
+  - Add system property: -Dhz.jet.enabled=true (for Hazelcast embedded, works only when loading config via Config.load)
+  - Add environment variable: HZ_JET_ENABLED=true (recommended when running container image. For Hazelcast embedded, works only when loading config via Config.load)
+Apr 21, 2022 4:23:40 PM com.hazelcast.system.security
+INFO: [127.0.0.1]:5701 [dev] [5.1.1] Enable DEBUG/FINE log level for log category com.hazelcast.system.security  or use -Dhazelcast.security.recommendations system property to see security recommendations and the status of current config.
+Apr 21, 2022 4:23:40 PM com.hazelcast.instance.impl.Node
+INFO: [127.0.0.1]:5701 [dev] [5.1.1] Using TCP/IP discovery
+Apr 21, 2022 4:23:40 PM com.hazelcast.cp.CPSubsystem
+WARNING: [127.0.0.1]:5701 [dev] [5.1.1] CP Subsystem is not enabled. CP data structures will operate in UNSAFE mode! Please note that UNSAFE mode will not provide strong consistency guarantees.
+Apr 21, 2022 4:23:41 PM com.hazelcast.internal.diagnostics.Diagnostics
+INFO: [127.0.0.1]:5701 [dev] [5.1.1] Diagnostics disabled. To enable add -Dhazelcast.diagnostics.enabled=true to the JVM arguments.
+Apr 21, 2022 4:23:41 PM com.hazelcast.core.LifecycleService
+INFO: [127.0.0.1]:5701 [dev] [5.1.1] [127.0.0.1]:5701 is STARTING
+Apr 21, 2022 4:23:41 PM com.hazelcast.internal.cluster.ClusterService
+INFO: [127.0.0.1]:5701 [dev] [5.1.1] 
+
+Members {size:1, ver:1} [
+	Member [127.0.0.1]:5701 - f7c2af1b-91ca-4fc7-860a-70b12f372f53 this
+]
+
+Apr 21, 2022 4:23:41 PM com.hazelcast.core.LifecycleService
+INFO: [127.0.0.1]:5701 [dev] [5.1.1] [127.0.0.1]:5701 is STARTED
+Apr 21, 2022 4:23:41 PM com.hazelcast.internal.partition.impl.PartitionStateManager
+INFO: [127.0.0.1]:5701 [dev] [5.1.1] Initializing cluster partition table arrangement...
+Press enter to exit
+Apr 21, 2022 4:23:49 PM com.hazelcast.internal.server.tcp.TcpServerConnection
+INFO: [127.0.0.1]:5701 [dev] [5.1.1] Initialized new cluster connection between /127.0.0.1:5701 and /127.0.0.1:61155
+Apr 21, 2022 4:23:54 PM com.hazelcast.internal.cluster.ClusterService
+INFO: [127.0.0.1]:5701 [dev] [5.1.1] 
+
+Members {size:2, ver:2} [
+	Member [127.0.0.1]:5701 - f7c2af1b-91ca-4fc7-860a-70b12f372f53 this
+	Member [127.0.0.1]:5702 - aab234fa-260a-45ad-8c1f-e92ce62494ce
+]
+
+Apr 21, 2022 4:23:54 PM com.hazelcast.internal.partition.impl.MigrationManager
+INFO: [127.0.0.1]:5701 [dev] [5.1.1] Repartitioning cluster data. Migration tasks count: 271
+Apr 21, 2022 4:23:54 PM com.hazelcast.internal.partition.impl.MigrationManager
+INFO: [127.0.0.1]:5701 [dev] [5.1.1] All migration tasks have been completed. (repartitionTime=Thu Apr 21 16:23:54 CEST 2022, plannedMigrations=271, completedMigrations=271, remainingMigrations=0, totalCompletedMigrations=271)
+Apr 21, 2022 4:23:58 PM com.hazelcast.internal.server.tcp.TcpServerConnection
+INFO: [127.0.0.1]:5701 [dev] [5.1.1] Initialized new cluster connection between /127.0.0.1:5701 and /127.0.0.1:61162
+Apr 21, 2022 4:24:03 PM com.hazelcast.internal.cluster.ClusterService
+INFO: [127.0.0.1]:5701 [dev] [5.1.1] 
+
+Members {size:3, ver:3} [
+	Member [127.0.0.1]:5701 - f7c2af1b-91ca-4fc7-860a-70b12f372f53 this
+	Member [127.0.0.1]:5702 - aab234fa-260a-45ad-8c1f-e92ce62494ce
+	Member [127.0.0.1]:5703 - d597e098-53a9-43f9-9574-08201e9a600a
+]
+
+Apr 21, 2022 4:24:03 PM com.hazelcast.internal.partition.impl.MigrationManager
+INFO: [127.0.0.1]:5701 [dev] [5.1.1] Repartitioning cluster data. Migration tasks count: 271
+Apr 21, 2022 4:24:03 PM com.hazelcast.internal.partition.impl.MigrationManager
+INFO: [127.0.0.1]:5701 [dev] [5.1.1] All migration tasks have been completed. (repartitionTime=Thu Apr 21 16:24:03 CEST 2022, plannedMigrations=271, completedMigrations=271, remainingMigrations=0, totalCompletedMigrations=542)
+Apr 21, 2022 4:24:08 PM com.hazelcast.client.impl.protocol.task.AuthenticationMessageTask
+INFO: [127.0.0.1]:5701 [dev] [5.1.1] Received auth from Connection[id=3, /127.0.0.1:5701->/127.0.0.1:61170, qualifier=null, endpoint=[127.0.0.1]:61170, remoteUuid=0d9a5459-57c5-4748-957e-e78dc5c054e0, alive=true, connectionType=JVM, planeIndex=-1], successfully authenticated, clientUuid: 0d9a5459-57c5-4748-957e-e78dc5c054e0, client name: hz.client_1, client version: 5.1.1
+This member owns key ExMemC4 with value friendly_gates
+This member owns key ExMemB1 with value nervous_kirch
+This member owns key ExMemA1 with value admiring_chatelet
+This member owns key ExMemA0 with value admiring_chatelet
+This member owns key ExMemA4 with value admiring_chatelet
+This member owns key ExMemC9 with value friendly_gates
+This member owns key ExMemB5 with value nervous_kirch
+This member owns key ExMemA7 with value admiring_chatelet
+This member owns key ExMemA9 with value admiring_chatelet
+This member owns key ExMemB9 with value nervous_kirch
+This member owns key ExMemC2 with value friendly_gates
+This member owns key ExMemB0 with value nervous_kirch
+This member owns key ExMemB7 with value nervous_kirch
+This member owns key ExMemA3 with value admiring_chatelet
+This member owns key ExMemA6 with value admiring_chatelet
+This member owns key ExMemB2 with value nervous_kirch
+This member owns key ExMemA2 with value admiring_chatelet
+This member owns key ExMemB3 with value nervous_kirch
+This member owns key ExMemC3 with value friendly_gates
+This member owns key ExMemB4 with value nervous_kirch
+This member owns key ExMemC6 with value friendly_gates
+This member owns key ExMemC1 with value friendly_gates
+This member owns key ExMemA5 with value admiring_chatelet
+This member owns key ExMemC5 with value friendly_gates
+This member owns key ExMemA8 with value admiring_chatelet
+Apr 21, 2022 4:24:09 PM com.hazelcast.internal.server.tcp.TcpServerConnection
+INFO: [127.0.0.1]:5701 [dev] [5.1.1] Connection[id=3, /127.0.0.1:5701->/127.0.0.1:61170, qualifier=null, endpoint=[127.0.0.1]:61170, remoteUuid=0d9a5459-57c5-4748-957e-e78dc5c054e0, alive=false, connectionType=JVM, planeIndex=-1] closed. Reason: Connection closed by the other side
+Apr 21, 2022 4:24:09 PM com.hazelcast.client.impl.ClientEndpointManager
+INFO: [127.0.0.1]:5701 [dev] [5.1.1] Destroying ClientEndpoint{connection=Connection[id=3, /127.0.0.1:5701->/127.0.0.1:61170, qualifier=null, endpoint=[127.0.0.1]:61170, remoteUuid=0d9a5459-57c5-4748-957e-e78dc5c054e0, alive=false, connectionType=JVM, planeIndex=-1], clientUuid=0d9a5459-57c5-4748-957e-e78dc5c054e0, clientName=hz.client_1, authenticated=true, clientVersion=5.1.1, creationTime=1650551048724, latest clientAttributes=null, labels=[]}
+Apr 21, 2022 4:25:04 PM com.hazelcast.internal.server.tcp.TcpServerConnection
+INFO: [127.0.0.1]:5701 [dev] [5.1.1] Connection[id=1, /127.0.0.1:5701->/127.0.0.1:61155, qualifier=null, endpoint=[127.0.0.1]:5702, remoteUuid=aab234fa-260a-45ad-8c1f-e92ce62494ce, alive=false, connectionType=MEMBER, planeIndex=0] closed. Reason: Connection closed by the other side
+Apr 21, 2022 4:25:04 PM com.hazelcast.internal.server.tcp.TcpServerConnector
+INFO: [127.0.0.1]:5701 [dev] [5.1.1] Connecting to /127.0.0.1:5702, timeout: 10000, bind-any: true
+Apr 21, 2022 4:25:04 PM com.hazelcast.internal.server.tcp.TcpServerConnector
+INFO: [127.0.0.1]:5701 [dev] [5.1.1] Could not connect to: /127.0.0.1:5702. Reason: IOException[Connection refused: no further information to address /127.0.0.1:5702]
+Apr 21, 2022 4:25:04 PM com.hazelcast.internal.server.tcp.TcpServerConnector
+INFO: [127.0.0.1]:5701 [dev] [5.1.1] Connecting to /127.0.0.1:5702, timeout: 10000, bind-any: true
+Apr 21, 2022 4:25:04 PM com.hazelcast.internal.server.tcp.TcpServerConnector
+INFO: [127.0.0.1]:5701 [dev] [5.1.1] Could not connect to: /127.0.0.1:5702. Reason: IOException[Connection refused: no further information to address /127.0.0.1:5702]
+Apr 21, 2022 4:25:04 PM com.hazelcast.internal.server.tcp.TcpServerConnector
+INFO: [127.0.0.1]:5701 [dev] [5.1.1] Connecting to /127.0.0.1:5702, timeout: 10000, bind-any: true
+Apr 21, 2022 4:25:04 PM com.hazelcast.internal.server.tcp.TcpServerConnector
+INFO: [127.0.0.1]:5701 [dev] [5.1.1] Could not connect to: /127.0.0.1:5702. Reason: IOException[Connection refused: no further information to address /127.0.0.1:5702]
+Apr 21, 2022 4:25:04 PM com.hazelcast.internal.server.tcp.TcpServerConnector
+INFO: [127.0.0.1]:5701 [dev] [5.1.1] Connecting to /127.0.0.1:5702, timeout: 10000, bind-any: true
+Apr 21, 2022 4:25:04 PM com.hazelcast.internal.server.tcp.TcpServerConnector
+INFO: [127.0.0.1]:5701 [dev] [5.1.1] Could not connect to: /127.0.0.1:5702. Reason: IOException[Connection refused: no further information to address /127.0.0.1:5702]
+Apr 21, 2022 4:25:04 PM com.hazelcast.internal.server.tcp.TcpServerConnectionErrorHandler
+WARNING: [127.0.0.1]:5701 [dev] [5.1.1] Removing connection to endpoint [127.0.0.1]:5702 Cause => java.io.IOException {Connection refused: no further information to address /127.0.0.1:5702}, Error-Count: 5
+Apr 21, 2022 4:25:04 PM com.hazelcast.internal.cluster.impl.MembershipManager
+INFO: [127.0.0.1]:5701 [dev] [5.1.1] Removing Member [127.0.0.1]:5702 - aab234fa-260a-45ad-8c1f-e92ce62494ce
+Apr 21, 2022 4:25:04 PM com.hazelcast.internal.partition.impl.PartitionStateManager
+INFO: [127.0.0.1]:5701 [dev] [5.1.1] Storing snapshot of partition assignments while removing UUID aab234fa-260a-45ad-8c1f-e92ce62494ce
+Apr 21, 2022 4:25:04 PM com.hazelcast.internal.cluster.ClusterService
+INFO: [127.0.0.1]:5701 [dev] [5.1.1] 
+
+Members {size:2, ver:4} [
+	Member [127.0.0.1]:5701 - f7c2af1b-91ca-4fc7-860a-70b12f372f53 this
+	Member [127.0.0.1]:5703 - d597e098-53a9-43f9-9574-08201e9a600a
+]
+
+Apr 21, 2022 4:25:04 PM com.hazelcast.transaction.TransactionManagerService
+INFO: [127.0.0.1]:5701 [dev] [5.1.1] Committing/rolling-back live transactions of [127.0.0.1]:5702, UUID: aab234fa-260a-45ad-8c1f-e92ce62494ce
+Apr 21, 2022 4:25:04 PM com.hazelcast.internal.partition.impl.MigrationManager
+INFO: [127.0.0.1]:5701 [dev] [5.1.1] Repartitioning cluster data. Migration tasks count: 180
+Apr 21, 2022 4:25:04 PM com.hazelcast.internal.partition.impl.MigrationManager
+INFO: [127.0.0.1]:5701 [dev] [5.1.1] All migration tasks have been completed. (repartitionTime=Thu Apr 21 16:25:04 CEST 2022, plannedMigrations=180, completedMigrations=180, remainingMigrations=0, totalCompletedMigrations=722)
+Apr 21, 2022 4:25:11 PM com.hazelcast.client.impl.protocol.task.AuthenticationMessageTask
+INFO: [127.0.0.1]:5701 [dev] [5.1.1] Received auth from Connection[id=4, /127.0.0.1:5701->/127.0.0.1:61192, qualifier=null, endpoint=[127.0.0.1]:61192, remoteUuid=cdb06e87-ef72-4866-8300-d2f17c6b18d0, alive=true, connectionType=JVM, planeIndex=-1], successfully authenticated, clientUuid: cdb06e87-ef72-4866-8300-d2f17c6b18d0, client name: hz.client_1, client version: 5.1.1
+This member owns key ExMemC3 with value friendly_gates
+This member owns key ExMemA2 with value admiring_chatelet
+This member owns key ExMemA5 with value admiring_chatelet
+This member owns key ExMemB3 with value nervous_kirch
+This member owns key ExMemB4 with value nervous_kirch
+This member owns key ExMemA8 with value admiring_chatelet
+This member owns key ExMemC8 with value friendly_gates
+This member owns key ExMemC1 with value friendly_gates
+This member owns key ExMemC5 with value friendly_gates
+This member owns key ExMemC6 with value friendly_gates
+This member owns key ExMemC0 with value friendly_gates
+This member owns key ExMemB6 with value nervous_kirch
+This member owns key ExMemB8 with value nervous_kirch
+This member owns key ExMemC4 with value friendly_gates
+This member owns key ExMemC7 with value friendly_gates
+This member owns key ExMemC9 with value friendly_gates
+This member owns key ExMemB1 with value nervous_kirch
+This member owns key ExMemA9 with value admiring_chatelet
+This member owns key ExMemC2 with value friendly_gates
+This member owns key ExMemA4 with value admiring_chatelet
+This member owns key ExMemA1 with value admiring_chatelet
+This member owns key ExMemB7 with value nervous_kirch
+This member owns key ExMemA6 with value admiring_chatelet
+This member owns key ExMemA0 with value admiring_chatelet
+This member owns key ExMemB9 with value nervous_kirch
+This member owns key ExMemB0 with value nervous_kirch
+This member owns key ExMemA3 with value admiring_chatelet
+This member owns key ExMemB2 with value nervous_kirch
+This member owns key ExMemB5 with value nervous_kirch
+This member owns key ExMemA7 with value admiring_chatelet
+Apr 21, 2022 4:25:11 PM com.hazelcast.internal.server.tcp.TcpServerConnection
+INFO: [127.0.0.1]:5701 [dev] [5.1.1] Connection[id=4, /127.0.0.1:5701->/127.0.0.1:61192, qualifier=null, endpoint=[127.0.0.1]:61192, remoteUuid=cdb06e87-ef72-4866-8300-d2f17c6b18d0, alive=false, connectionType=JVM, planeIndex=-1] closed. Reason: Connection closed by the other side
+Apr 21, 2022 4:25:11 PM com.hazelcast.client.impl.ClientEndpointManager
+INFO: [127.0.0.1]:5701 [dev] [5.1.1] Destroying ClientEndpoint{connection=Connection[id=4, /127.0.0.1:5701->/127.0.0.1:61192, qualifier=null, endpoint=[127.0.0.1]:61192, remoteUuid=cdb06e87-ef72-4866-8300-d2f17c6b18d0, alive=false, connectionType=JVM, planeIndex=-1], clientUuid=cdb06e87-ef72-4866-8300-d2f17c6b18d0, clientName=hz.client_1, authenticated=true, clientVersion=5.1.1, creationTime=1650551111383, latest clientAttributes=null, labels=[]}
