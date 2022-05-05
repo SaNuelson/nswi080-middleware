@@ -1,0 +1,297 @@
+May 05, 2022 4:44:49 PM org.apache.openejb.util.LogStreamAsync run
+INFO: ********************************************************************************
+May 05, 2022 4:44:49 PM org.apache.openejb.util.LogStreamAsync run
+INFO: OpenEJB http://tomee.apache.org/
+May 05, 2022 4:44:49 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Startup: Thu May 05 16:44:49 CEST 2022
+May 05, 2022 4:44:49 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Copyright 1999-2018 (C) Apache OpenEJB Project, All Rights Reserved.
+May 05, 2022 4:44:49 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Version: 8.0.5
+May 05, 2022 4:44:49 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Build date: 20201117
+May 05, 2022 4:44:49 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Build time: 08:18
+May 05, 2022 4:44:49 PM org.apache.openejb.util.LogStreamAsync run
+INFO: ********************************************************************************
+May 05, 2022 4:44:49 PM org.apache.openejb.util.LogStreamAsync run
+INFO: openejb.home = /home/blackie/openejb/apache-openejb-8.0.5
+May 05, 2022 4:44:49 PM org.apache.openejb.util.LogStreamAsync run
+INFO: openejb.base = /home/blackie/openejb/apache-openejb-8.0.5
+May 05, 2022 4:44:49 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Created new singletonService org.apache.openejb.cdi.ThreadSingletonServiceImpl@3d8c7aca
+May 05, 2022 4:44:49 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Succeeded in installing singleton service
+May 05, 2022 4:44:50 PM org.apache.openejb.util.LogStreamAsync run
+INFO: TomEE configuration file is '/home/blackie/openejb/apache-openejb-8.0.5/conf/openejb.xml'
+May 05, 2022 4:44:50 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Configuring Service(id=Default Security Service, type=SecurityService, provider-id=Default Security Service)
+May 05, 2022 4:44:50 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Configuring Service(id=Default Transaction Manager, type=TransactionManager, provider-id=Default Transaction Manager)
+May 05, 2022 4:44:50 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Configuring Service(id=My DataSource, type=Resource, provider-id=Default JDBC Database)
+May 05, 2022 4:44:50 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Configuring Service(id=My Unmanaged DataSource, type=Resource, provider-id=Default JDBC Database)
+May 05, 2022 4:44:50 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Configuring Service(id=My Singleton Container, type=Container, provider-id=Default Singleton Container)
+May 05, 2022 4:44:50 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Configuring Service(id=My Stateful Container, type=Container, provider-id=Default Stateful Container)
+May 05, 2022 4:44:50 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Configuring Service(id=My Stateless Container, type=Container, provider-id=Default Stateless Container)
+May 05, 2022 4:44:50 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Using 'openejb.system.apps=true'
+May 05, 2022 4:44:50 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Creating TransactionManager(id=Default Transaction Manager)
+May 05, 2022 4:44:50 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Creating SecurityService(id=Default Security Service)
+May 05, 2022 4:44:50 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Creating Resource(id=My DataSource)
+May 05, 2022 4:44:50 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Creating Resource(id=My Unmanaged DataSource)
+May 05, 2022 4:44:50 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Creating Container(id=My Singleton Container)
+May 05, 2022 4:44:50 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Creating Container(id=My Stateful Container)
+May 05, 2022 4:44:50 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Using directory /tmp for stateful session passivation
+May 05, 2022 4:44:50 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Creating Container(id=My Stateless Container)
+May 05, 2022 4:44:50 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Assembling app: openejb
+May 05, 2022 4:44:50 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Using 'openejb.jndiname.format={deploymentId}{interfaceType.openejbLegacyName}'
+May 05, 2022 4:44:50 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Jndi(name=openejb/DeployerBusinessRemote) --> Ejb(deployment-id=openejb/Deployer)
+May 05, 2022 4:44:50 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Jndi(name=global/openejb/openejb/openejb/Deployer!org.apache.openejb.assembler.Deployer) --> Ejb(deployment-id=openejb/Deployer)
+May 05, 2022 4:44:50 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Jndi(name=global/openejb/openejb/openejb/Deployer) --> Ejb(deployment-id=openejb/Deployer)
+May 05, 2022 4:44:50 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Jndi(name=openejb/ConfigurationInfoBusinessRemote) --> Ejb(deployment-id=openejb/ConfigurationInfo)
+May 05, 2022 4:44:50 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Jndi(name=global/openejb/openejb/openejb/Deployer!org.apache.openejb.assembler.classic.cmd.ConfigurationInfo) --> Ejb(deployment-id=openejb/ConfigurationInfo)
+May 05, 2022 4:44:50 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Jndi(name=MEJB) --> Ejb(deployment-id=MEJB)
+May 05, 2022 4:44:50 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Jndi(name=global/openejb/openejb/openejb/Deployer!javax.management.j2ee.ManagementHome) --> Ejb(deployment-id=MEJB)
+May 05, 2022 4:44:50 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Created Ejb(deployment-id=MEJB, ejb-name=openejb/Deployer, container=My Singleton Container)
+May 05, 2022 4:44:50 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Created Ejb(deployment-id=openejb/ConfigurationInfo, ejb-name=openejb/Deployer, container=My Singleton Container)
+May 05, 2022 4:44:50 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Created Ejb(deployment-id=openejb/Deployer, ejb-name=openejb/Deployer, container=My Singleton Container)
+May 05, 2022 4:44:50 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Started Ejb(deployment-id=MEJB, ejb-name=openejb/Deployer, container=My Singleton Container)
+[init] OpenEJB Remote ServerMay 05, 2022 4:44:50 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Started Ejb(deployment-id=openejb/ConfigurationInfo, ejb-name=openejb/Deployer, container=My Singleton Container)
+
+May 05, 2022 4:44:50 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Started Ejb(deployment-id=openejb/Deployer, ejb-name=openejb/Deployer, container=My Singleton Container)
+May 05, 2022 4:44:50 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Deployed MBean(openejb.user.mbeans:application=openejb,group=org.apache.openejb.assembler.monitoring,name=JMXDeployer)
+May 05, 2022 4:44:50 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Deployed Application(path=openejb)
+May 05, 2022 4:44:50 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Creating ServerService(id=cxf)
+May 05, 2022 4:44:50 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Creating ServerService(id=cxf-rs)
+May 05, 2022 4:44:50 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Creating ServerService(id=httpejbd)
+May 05, 2022 4:44:50 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Created ServicePool 'httpejbd' with (10) core threads, limited to (200) threads with a queue of (9)
+May 05, 2022 4:44:50 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Creating ServerService(id=ejbd)
+May 05, 2022 4:44:50 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Created ServicePool 'ejbd' with (10) core threads, limited to (200) threads with a queue of (9)
+May 05, 2022 4:44:50 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Creating ServerService(id=admin)
+May 05, 2022 4:44:50 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Created ServicePool 'admin' with (10) core threads, limited to (10) threads with a queue of (9)
+May 05, 2022 4:44:50 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Creating ServerService(id=multipulse)
+May 05, 2022 4:44:50 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Using 'bind=239.255.2.3'
+May 05, 2022 4:44:50 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Using 'port=6142'
+May 05, 2022 4:44:50 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Creating ServerService(id=ejbds)
+May 05, 2022 4:44:50 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Created ServicePool 'ejbds' with (10) core threads, limited to (200) threads with a queue of (9)
+May 05, 2022 4:44:50 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Creating ServerService(id=multicast)
+May 05, 2022 4:44:50 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Using 'loopback_mode=false'
+May 05, 2022 4:44:50 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Using 'port=6142'
+May 05, 2022 4:44:50 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Using 'heart_rate=500'
+May 05, 2022 4:44:50 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Using 'max_missed_heartbeats=10'
+May 05, 2022 4:44:50 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Created Tracker{group='default', groupPrefix='default:', heartRate=500, maxMissedHeartbeats=10, reconnectDelay=5000, maxReconnectDelay=30000, maxReconnectAttempts=10, exponentialBackoff=0, useExponentialBackOff=false, registeredServices=0, discoveredServices=0}
+May 05, 2022 4:44:50 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Creating ServerService(id=multipoint)
+May 05, 2022 4:44:50 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Using 'port=4212'
+May 05, 2022 4:44:50 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Using 'initialServers='
+May 05, 2022 4:44:50 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Using 'heart_rate=500'
+May 05, 2022 4:44:50 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Using 'max_missed_heartbeats=10'
+May 05, 2022 4:44:50 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Created Tracker{group='default', groupPrefix='default:', heartRate=500, maxMissedHeartbeats=10, reconnectDelay=5000, maxReconnectDelay=30000, maxReconnectAttempts=10, exponentialBackoff=0, useExponentialBackOff=false, registeredServices=0, discoveredServices=0}
+May 05, 2022 4:44:50 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Added Service{uri=ejb:ejbd://127.0.0.1:4201}
+May 05, 2022 4:44:50 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Added Service{uri=ejb:ejbd://127.0.0.1:4201}
+May 05, 2022 4:44:50 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Peer discovered: ejbd://127.0.0.1:4201
+May 05, 2022 4:44:50 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Peer discovered: ejbd://127.0.0.1:4201
+May 05, 2022 4:44:50 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Peer discovered: ejbd://127.0.0.1:4201
+May 05, 2022 4:44:50 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Peer discovered: ejbd://127.0.0.1:4201
+May 05, 2022 4:44:50 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Peer discovered: ejbd://127.0.0.1:4201
+May 05, 2022 4:44:50 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Peer discovered: ejbd://127.0.0.1:4201
+May 05, 2022 4:44:50 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Added Service{uri=ejb:ejbds://127.0.0.1:4203}
+May 05, 2022 4:44:50 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Added Service{uri=ejb:ejbds://127.0.0.1:4203}
+May 05, 2022 4:44:50 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Peer discovered: ejbds://127.0.0.1:4203
+May 05, 2022 4:44:50 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Peer discovered: ejbds://127.0.0.1:4203
+May 05, 2022 4:44:50 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Peer discovered: ejbds://127.0.0.1:4203
+May 05, 2022 4:44:50 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Peer discovered: ejbds://127.0.0.1:4203
+May 05, 2022 4:44:50 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Peer discovered: ejbds://127.0.0.1:4203
+May 05, 2022 4:44:50 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Peer discovered: ejbds://127.0.0.1:4203
+May 05, 2022 4:44:50 PM org.apache.openejb.util.LogStreamAsync run
+INFO: MultipointDiscoveryAgent Starting
+May 05, 2022 4:44:50 PM org.apache.openejb.util.LogStreamAsync run
+INFO: MultipointServer Starting : Thread 'MultipointServer.lemon.4212'
+May 05, 2022 4:44:50 PM org.apache.openejb.util.LogStreamAsync run
+INFO: MultipointDiscoveryAgent Started
+May 05, 2022 4:44:50 PM org.apache.openejb.util.LogStreamAsync run
+INFO:   ** Bound Services **
+May 05, 2022 4:44:50 PM org.apache.openejb.util.LogStreamAsync run
+INFO:   NAME                 IP              PORT
+May 05, 2022 4:44:50 PM org.apache.openejb.util.LogStreamAsync run
+INFO:   httpejbd             127.0.0.1       4204
+May 05, 2022 4:44:50 PM org.apache.openejb.util.LogStreamAsync run
+INFO:   ejbd                 127.0.0.1       4201
+May 05, 2022 4:44:50 PM org.apache.openejb.util.LogStreamAsync run
+INFO:   admin                127.0.0.1       4200
+May 05, 2022 4:44:50 PM org.apache.openejb.util.LogStreamAsync run
+INFO:   multipulse           239.255.2.3     6142
+May 05, 2022 4:44:50 PM org.apache.openejb.util.LogStreamAsync run
+INFO:   ejbds                127.0.0.1       4203
+May 05, 2022 4:44:50 PM org.apache.openejb.util.LogStreamAsync run
+INFO:   multicast            239.255.2.3     6142
+May 05, 2022 4:44:50 PM org.apache.openejb.util.LogStreamAsync run
+INFO:   multipoint           127.0.0.1       4212
+May 05, 2022 4:44:50 PM org.apache.openejb.util.LogStreamAsync run
+INFO: -------
+May 05, 2022 4:44:50 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Ready!
+May 05, 2022 4:44:55 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Configuring enterprise application: /home/blackie/openejb/apache-openejb-8.0.5/apps/example.jar
+May 05, 2022 4:44:55 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Auto-deploying ejb ExampleEntityBeans: EjbDeployment(deployment-id=ExampleEntityBeans)
+May 05, 2022 4:44:55 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Auto-deploying ejb ExampleStatelessBean: EjbDeployment(deployment-id=ExampleStatelessBean)
+May 05, 2022 4:44:55 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Auto-deploying ejb ExampleStatefulBean: EjbDeployment(deployment-id=ExampleStatefulBean)
+May 05, 2022 4:44:55 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Configuring PersistenceUnit(name=movie-unit)
+May 05, 2022 4:44:55 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Adjusting PersistenceUnit movie-unit <jta-data-source> to Resource ID 'My DataSource' from 'movieDatabase'
+May 05, 2022 4:44:55 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Adjusting PersistenceUnit movie-unit <non-jta-data-source> to Resource ID 'My Unmanaged DataSource' from 'movieDatabaseUnmanaged'
+May 05, 2022 4:44:55 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Enterprise application "/home/blackie/openejb/apache-openejb-8.0.5/apps/example.jar" loaded.
+May 05, 2022 4:44:55 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Creating dedicated application classloader for example
+May 05, 2022 4:44:55 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Assembling app: /home/blackie/openejb/apache-openejb-8.0.5/apps/example.jar
+May 05, 2022 4:44:56 PM org.apache.openejb.util.LogStreamAsync run
+INFO: PersistenceUnit(name=movie-unit, provider=org.apache.openjpa.persistence.PersistenceProviderImpl) - provider time 210ms
+May 05, 2022 4:44:56 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Jndi(name=ExampleEntityBeansRemote) --> Ejb(deployment-id=ExampleEntityBeans)
+May 05, 2022 4:44:56 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Jndi(name=global/example/ExampleEntityBeans!mwy.ExampleEntities) --> Ejb(deployment-id=ExampleEntityBeans)
+May 05, 2022 4:44:56 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Jndi(name=global/example/ExampleEntityBeans) --> Ejb(deployment-id=ExampleEntityBeans)
+May 05, 2022 4:44:56 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Jndi(name=ExampleStatelessBeanRemote) --> Ejb(deployment-id=ExampleStatelessBean)
+May 05, 2022 4:44:56 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Jndi(name=global/example/ExampleStatelessBean!mwy.ExampleStateless) --> Ejb(deployment-id=ExampleStatelessBean)
+May 05, 2022 4:44:56 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Jndi(name=global/example/ExampleStatelessBean) --> Ejb(deployment-id=ExampleStatelessBean)
+May 05, 2022 4:44:56 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Jndi(name=ExampleStatefulBeanRemote) --> Ejb(deployment-id=ExampleStatefulBean)
+May 05, 2022 4:44:56 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Jndi(name=global/example/ExampleStatefulBean!mwy.ExampleStateful) --> Ejb(deployment-id=ExampleStatefulBean)
+May 05, 2022 4:44:56 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Jndi(name=global/example/ExampleStatefulBean) --> Ejb(deployment-id=ExampleStatefulBean)
+May 05, 2022 4:44:56 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Created Ejb(deployment-id=ExampleEntityBeans, ejb-name=ExampleEntityBeans, container=My Stateless Container)
+May 05, 2022 4:44:56 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Created Ejb(deployment-id=ExampleStatefulBean, ejb-name=ExampleStatefulBean, container=My Stateful Container)
+May 05, 2022 4:44:56 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Created Ejb(deployment-id=ExampleStatelessBean, ejb-name=ExampleStatelessBean, container=My Stateless Container)
+May 05, 2022 4:44:56 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Started Ejb(deployment-id=ExampleEntityBeans, ejb-name=ExampleEntityBeans, container=My Stateless Container)
+May 05, 2022 4:44:56 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Started Ejb(deployment-id=ExampleStatefulBean, ejb-name=ExampleStatefulBean, container=My Stateful Container)
+May 05, 2022 4:44:56 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Started Ejb(deployment-id=ExampleStatelessBean, ejb-name=ExampleStatelessBean, container=My Stateless Container)
+May 05, 2022 4:44:56 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Deployed Application(path=/home/blackie/openejb/apache-openejb-8.0.5/apps/example.jar)
+May 05, 2022 4:45:01 PM null
+INFO: Starting OpenJPA 3.1.2
+May 05, 2022 4:45:02 PM org.hsqldb.persist.Logger logInfoEvent
+INFO: Checkpoint start
+May 05, 2022 4:45:02 PM org.hsqldb.persist.Logger logInfoEvent
+INFO: checkpointClose start
+May 05, 2022 4:45:02 PM org.hsqldb.persist.Logger logInfoEvent
+INFO: checkpointClose end
+May 05, 2022 4:45:02 PM org.hsqldb.persist.Logger logInfoEvent
+INFO: Checkpoint end - txts: 1
+May 05, 2022 4:45:02 PM null
+INFO: Using dictionary class "org.apache.openjpa.jdbc.sql.HSQLDictionary" (HSQL Database Engine 2.3.2 ,HSQL Database Engine Driver 2.3.2).
+May 05, 2022 4:45:02 PM null
+INFO: Connected to HSQL Database Engine version 2.3 using JDBC driver HSQL Database Engine Driver version 2.3.2.
+May 05, 2022 4:45:10 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Undeploying app: /home/blackie/openejb/apache-openejb-8.0.5/apps/example.jar
+May 05, 2022 4:45:10 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Undeploying app: openejb
+May 05, 2022 4:45:10 PM org.apache.openejb.util.LogStreamAsync run
+SEVERE: Unable to unregister MBean openejb.management:J2EEServer=openejb,J2EEApplication=<empty>,EJBModule=openejb,SingletonSessionBean=openejb/Deployer,name=openejb/Deployer,j2eeType=Invocations
+May 05, 2022 4:45:10 PM org.apache.openejb.util.LogStreamAsync run
+SEVERE: Unable to unregister MBean openejb.management:J2EEServer=openejb,J2EEApplication=<empty>,EJBModule=openejb,SingletonSessionBean=openejb/Deployer,name=openejb/Deployer,j2eeType=Invocations
+May 05, 2022 4:45:10 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Closing DataSource: My DataSource
+May 05, 2022 4:45:10 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Closing DataSource: My Unmanaged DataSource
+May 05, 2022 4:45:10 PM org.apache.cxf.management.jmx.InstrumentationManagerImpl unregister
+INFO: unregistering MBean org.apache.cxf:bus.id=openejb.cxf.bus,type=Bus,instance.id=1594873248
+May 05, 2022 4:45:10 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Stopping server services
+May 05, 2022 4:45:10 PM org.apache.openejb.util.LogStreamAsync run
+INFO: MultipointDiscoveryAgent Stopping
+Exception in thread "MultipointServer.lemon.4212" May 05, 2022 4:45:10 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Stopping Remote Server
+java.lang.NullPointerException
+        at org.apache.openejb.server.discovery.MultipointServer$Session.access$1300(MultipointServer.java:318)
+        at org.apache.openejb.server.discovery.MultipointServer._run(MultipointServer.java:573)
+        at org.apache.openejb.server.discovery.MultipointServer.access$300(MultipointServer.java:72)
+        at org.apache.openejb.server.discovery.MultipointServer$1.run(MultipointServer.java:266)
+        at java.lang.Thread.run(Thread.java:748)

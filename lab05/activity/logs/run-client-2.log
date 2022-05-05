@@ -1,0 +1,23 @@
+May 05, 2022 4:45:03 PM org.apache.openejb.client.EventLogger log
+INFO: RemoteInitialContextCreated{providerUri=ejbd://127.0.0.1:4201}
+May 05, 2022 4:45:03 PM org.apache.openejb.client.EventLogger log
+INFO: ConnectionOpened{uri=ejbd://127.0.0.1:4201}
+May 05, 2022 4:45:03 PM org.apache.openejb.client.EventLogger log
+INFO: ServerAdded{server=ejbds://127.0.0.1:4203} ClusterMetaDataUpdated{provider=ejbd://127.0.0.1:4201, version=1651761890765, uris=2}
+Hello World!!!!
+1
+2
+0
+1
+Steven Spielberg
+George Lucas
+Steven Spielberg
+George Lucas
+Steven Spielberg: Jurassic Park
+Steven Spielberg: E.T. the Extra-Terrestrial
+George Lucas: Star Wars
+George Lucas: Return of the Jedi
+Steven Spielberg: Jurassic Park
+Steven Spielberg: E.T. the Extra-Terrestrial
+George Lucas: Star Wars
+George Lucas: Return of the Jedi
